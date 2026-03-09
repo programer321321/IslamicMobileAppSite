@@ -1,0 +1,63 @@
+body {
+  background-image: url("../assets/IslamicLayoutImage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 6%;
+  height: 6%;
+}
+
+.note {
+  color: white;
+  background-color: lightblue;
+  padding: 1.5rem;
+  border-radius: 6%;
+  margin: 1rem;
+  text-align: center;
+  border: 5px dashed lightgreen;
+}
+
+.install {
+  color: white;
+  background-color: lightgreen;
+  width: fit-content;
+  padding: 1.5rem;
+  border-radius: 6%;
+}
+
+.IslamicAppLogo {
+  width: 250px;
+  height: 250px;
+}
+
+.installnote {
+  color: white;
+  background-color: lightgreen;
+  padding: 1.5rem;
+  border-radius: 6%;
+  margin: 1rem;
+  text-align: center;
+  border: 5px dashed white;
+}
+
+.phone {
+  width: 300px;
+  height: 500px;
+}
